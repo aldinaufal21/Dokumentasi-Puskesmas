@@ -1,0 +1,79 @@
+body {
+  padding:30px 50px;
+}
+header {
+  clear: both;
+  overflow: auto;
+}
+header > div {
+  /*display:inline-block;*/
+  width:50%;
+  height: 150px;
+  
+  /*border:1px solid black;*/
+}
+#cgin-left: 50px;
+  text-align:center;
+
+}
+#container_header>p{
+  font-size: 14px;
+}
+#container_gambar {
+  float:left;
+  width:10%;
+}
+#container_header {
+  float: right;
+  width:80%;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+h1 {
+  /*margin:4px 0;*/
+  font-size: 24px;
+}
+h2 {
+  margin:0;
+  font-size: 20px;
+}
+.garis_kop{
+  display: block;
+  width: 100%;
+  margin:0;
+  border:none;
+  background:transparent;
+  border-top:1px solid #000;
+}
+#tebal {
+  /*height:4px;*/
+  margin:0 0 2px;
+  border-top-width: 4px;
+}
+#tipis {
+  /*height:2px;*/
+  border-top-width: 2px;
+}
+h3 {
+  text-align:center;
+}
+.logo{
+  width: 100px;
+  height: 130px;
+}
+main > table{
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+}
+main > .ttd{
+  margin-left: 350px;
+  text-align: center;
+  margin-top: 50px;
+}
+main > .ttd > .ket2{
+  margin-top: -10px;
+}
+main > .ttd > .garis{
+  margin-top: 50px;
+}
