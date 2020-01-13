@@ -29,7 +29,7 @@
                 if ($_GET['hasil'] == "gagallogin") {
 	        	?>
 	        		<div style="width: 1110px; margin-left: 120px;" class="alert alert-success">
-			            Login Gagal
+			            Username atau password salah, Silahkan cek kembali
 			        </div>
 	        	<?php
 	        	}

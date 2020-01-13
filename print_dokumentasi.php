@@ -62,7 +62,7 @@
       <th>No</th>
       <th>Tanggal</th>
       <th>Uraian Kegiatan</th>
-      <th>Dokumentasi</th>
+      <th>  Dokumentasi</th>
     </tr>
 
     <tbody>
