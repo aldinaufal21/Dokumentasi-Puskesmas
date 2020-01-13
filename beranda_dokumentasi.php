@@ -128,9 +128,9 @@ $result = $db->tampil_data($id_pegawai);
         <tr>
           <th>No</th>
           <th>Tanggal</th>
-          <th>Uraian Dokumentasi</th>
+          <th>Uraian Kegiatan</th>
           <th>Keterangan</th>
-          <th>Gambar</th>
+          <th>Dokumentasi</th>
           <th>Aksi</th>
         </tr>
       </thead>

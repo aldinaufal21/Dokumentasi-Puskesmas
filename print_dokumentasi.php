@@ -31,15 +31,15 @@
 </head>
 <body>
   <header>
-    <div id="container_gambar">
-      <img class="logo" src="assets/images/puskesmas.png">
+    <div id="container_gambar" style="padding-top: 20px;">
+      <img class="logo" src="assets/images/lebak.png">
     </div>
     <div id="container_header">
 
-      <h1>Puskesmas Baros</h1>
+      <h3 style="letter-spacing: 5px; ">PEMERINTAH KABUPATEN LEBAK<br>PUSKESMAS BAROS</h3>
       <p>
-      Jl.Raya Rangkasbitung-Pandeglang KM.14 Desa Baros Kec.Warunggunung Kab.Lebak</br>
-      Telp.:08xx-xxxx-xxx | Web.: puskesmasbaros.com
+      <i>Jl.Raya Rangkasbitung-Pandeglang KM 14 Ds.Baros-Warunggunung</i></br>
+      Telp.:<i>(0253) 203534</i> | Email.: <i>pkm.baros1004@gmail.com</i>
     </p>
   </div>
 </header>
@@ -62,7 +62,7 @@
       <th>No</th>
       <th>Tanggal</th>
       <th>Uraian Kegiatan</th>
-      <th>Gambar Dokumentasi</th>
+      <th>Dokumentasi</th>
     </tr>
 
     <tbody>

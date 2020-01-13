@@ -49,12 +49,21 @@
 		$id_pegawai = $_GET['id_pegawai'];
 		$gambar = $_FILES['gambar']['name'];
 		$tmp_gambar = $_FILES['gambar']['tmp_name'];
+		$ukuran = $_FILES['gambar']['size'];
 
-		move_uploaded_file($tmp_gambar, "assets/dist/img/$gambar");
+		if ($ukuran < 2000000) {
+			move_uploaded_file($tmp_gambar, "assets/dist/img/$gambar");
 
-		$result = $db->edit_gambar($gambar,$id_pegawai);
+			$result = $db->edit_gambar($gambar,$id_pegawai);
 
-		header("location: profile.php?status=berhasileditpic");
+			header("location: profile.php?status=berhasileditpic&ukuran=$ukuran");	
+		}
+		elseif ($ukuran == 0) {
+			header("location: profile.php?status=gagaleditpic");
+		}
+		else{
+		header("location: profile.php?status=gagaleditpic");			
+		}
 	}
 	elseif ($aksi == "ubahpassword") {
 		$lama = $_POST['lama'];

@@ -65,6 +65,14 @@ include('header.php');
               </button>
             </div>';
     }
+    elseif ($status == "gagaleditpic") {
+      echo '<div class="alert alert-success " role="alert">
+              <strong>Gambar Tidak Boleh Lebih Dari 2 MB</strong>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>';
+    }
     ?>
     <div class="row">
       <div class="col-md-3">

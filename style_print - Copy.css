@@ -20,7 +20,7 @@ header > div {
   font-size: 14px;
 }
 #container_gambar {
-  float: left;
+  float:left;
   width:10%;
 }
 #container_header {

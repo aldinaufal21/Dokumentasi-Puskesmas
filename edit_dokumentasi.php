@@ -56,7 +56,7 @@ include('header.php');
       <form action="proses_dokumentasi.php?aksi=edit&id=<?php echo $id; ?>" method="post" enctype="multipart/form-data">
         <div class="box-body">
           <div class="form-group">
-            <label>Tanggal</label>
+            <label>Tanggal Kegiatan</label>
             <div class="input-group date">
               <div class="input-group-addon">
                <span class="glyphicon glyphicon-th"></span>
@@ -77,7 +77,7 @@ include('header.php');
               <!-- /.box-body -->
 
               <div class="box-footer">
-                <input type="submit" class="btn btn-primary" name="tambah" value="TAMBAH">
+                <input type="submit" class="btn btn-primary" name="tambah" value="EDIT">
                 <a href="beranda_dokumentasi.php?status=" class="btn btn-primary">KEMBALI</a>
               </div>
             </form>

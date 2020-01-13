@@ -44,7 +44,7 @@ include('header.php');
       <form action="proses_dokumentasi.php?aksi=tambah" method="post" enctype="multipart/form-data">
         <div class="box-body">
           <div class="form-group">
-            <label>Tanggal</label>
+            <label>Tanggal Kegiatan</label>
             <div class="input-group date">
               <div class="input-group-addon">
                <span class="glyphicon glyphicon-th"></span>
